@@ -1,0 +1,38 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    color: white;
+    border: 2px solid white;
+}
+
+.round {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+.animate {
+    animation: moveUpAndDown 1s infinite alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes moveUpAndDown {
+    0% {
+        transform: translateY(calc(50vh - 55px));
+    }
+    100% {
+        transform: translateY(calc(-50vh + 55px));
+    }
+}
+
+@keyframes moveUpAndDown {
+    0% {
+        transform: translateY(calc(50vh - 55px));
+    }
+    100% {
+        transform: translateY(calc(-50vh + 55px));
+    }
+}
